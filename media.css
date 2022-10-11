@@ -1,0 +1,120 @@
+@media screen and (max-width: 992px) {
+  
+  .title {
+    width: 100%;
+  }
+
+  .title p {
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .title h3 {
+    font-size: 30px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .menu {
+    font-size: 1.4rem;
+    display: block;
+  }
+
+  .hero {
+    margin-bottom: 100px;
+  }
+
+  .hero_wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .intro {
+    width: 75%;
+  }
+  .intro h1 {
+    font-size: 30px;
+  }
+  .intro_img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .cards_wapper {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 75%;
+  }
+
+  .leading_wrapper {
+    flex-direction: column;
+  }
+
+  .leading_img {
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  .leading_text {
+    width: 75%;
+  }
+
+  .cards2_wapper {
+    flex-direction: column;
+  }
+
+  .cards2 {
+    width: 85%;
+    margin-bottom: 50px;
+  }
+
+  .foot_warpper {
+    flex-direction: column-reverse;
+  }
+
+  footer .foot_left {
+    text-align: center;
+    width: 100%;
+  }
+  footer .foot_left p {
+    text-align: center;
+  }
+
+  .foot_right {
+
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .foot_right ul li {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 71px;
+    text-align: center;
+  }
+  .title p {
+    padding: 0 100px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .title h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin-bottom: 61px;
+  }
+
+  .leading_text h3 {
+    font-size: 24px;
+  }
+}
